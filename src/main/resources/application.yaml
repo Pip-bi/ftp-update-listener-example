@@ -1,1 +1,9 @@
-
+spring:
+  ftp:
+    username: ${FTP_USER_NAME:username}
+    password: ${FTP_USER_PASS:mypass}
+    host: ${FTP_HOST:localhost}
+    port: ${FTP_PORT:21}
+  redis:
+    host: ${REDIS_HOST:localhost}
+    port: ${REDIS_PORT:6379}
